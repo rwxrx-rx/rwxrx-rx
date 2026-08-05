@@ -1,15 +1,16 @@
-# Hi, I'm [RWXRXRX]
+# Yo!
 
-I focus on Android kernel development, Linux systems, and CI/CD build automation.
+Custom Android kernels, CI/CD automation, and low-level tools.
 
-### 🛠 What I Work With
-* **Kernel & Android:** Linux Kernel (4.14+), KernelSU integration, Clang/GCC toolchains
-* **Automation:** GitHub Actions, Telegram Bot API, Bash, Python
-* **Tools & OS:** Git, `repo` tool, Linux CLI, Docker
+### What I'm Doing
+- **Lotus-Kernel**: Custom Linux 4.14 kernel targeting Xiaomi `camellia` / `camellian` (Redmi Note 10 5G / Poco M3 Pro 5G).
+- **Automation**: Multi-stage GitHub Actions pipelines for kernel builds, toolchain management, and Telegram release notifications.
+- **Root & Security**: Integrating KernelSU forks (`xxKSU`, `SUKISU`, `ReSuKISU`), `SUSFS` anti-detection, and `lpud` userspace daemons.
 
-### 🚀 Current Projects
-* **Automated Kernel CI/CD:** Building custom Android kernels (Xiaomi Camellia) with live Telegram progress tracking and automated release pipelines.
-* **KernelSU Engine:** Integrating and maintaining KernelSU builds for custom kernels.
+### Tech Stack
+- **Languages**: C, Bash, Python, Rust
+- **Tools**: Clang/LLVM, GCC, AnyKernel3, GitHub Actions, Linux Terminal
 
 ---
-💬 *Feel free to explore my repositories or open an issue if you have questions regarding build workflows.*
+
+*pushing code & breaking builds.*

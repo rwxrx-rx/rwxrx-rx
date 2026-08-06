@@ -1,3 +1,13 @@
+### 👾 8-Bit Pac-Man Contribution Graph
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/pacman-contribution-graph.svg">
+    <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/pacman-contribution-graph-dark.svg">
+  </picture>
+</p>
+
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJ1NWpya3psZm03cXh5Nmtxb3h0ODJtOGd6b3BvYTFjdnZtdGN4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K1tgb1IUeBOQw/giphy.gif" alt="8-Bit Cat Header" width="100%" height="200" style="object-fit: cover; border-radius: 10px;" />
 </p>

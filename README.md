@@ -65,6 +65,14 @@
 
 ---
 
+### 🐾 Secondary / Work Account
+
+<p align="left">
+  <a href="https://github.com/weslahmales">
+    <img src="https://img.shields.io/badge/Alt_Account-AKUN__KEDUA-38bdf8?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
 ### 📊 GitHub Stats (Catppuccin Theme)
 
 <p align="center">

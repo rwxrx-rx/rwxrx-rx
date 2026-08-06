@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=%F0%9F%91%BE%20LEVEL%2099%20KERNEL%20NEKO%20%F0%9F%90%BE&fontSize=42&fontColor=38bdf8&animation=twinkle&fontAlignY=45" alt="8-Bit Header Banner" width="100%">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJ1NWpya3psZm03cXh5Nmtxb3h0ODJtOGd6b3BvYTFjdnZtdGN4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K1tgb1IUeBOQw/giphy.gif" alt="8-Bit Cat Header" width="100%" height="200" style="object-fit: cover; border-radius: 10px;" />
 </p>
 
 <h1 align="center">
@@ -7,12 +7,12 @@
 </h1>
 
 <p align="center">
-  <b>8-Bit Systems Hacker • Linux Kernel Developer • Cat Enthusiast 🐱 • ARM64 & LLVM Specialist</b>
+  <b>8-Bit Linux Kernel & Systems Engineer • ARM64 & LLVM Specialist</b>
 </p>
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=400&size=14&pause=800&color=38BDF8&center=true&vCenter=true&width=750&height=50&lines=PRESS+START+TO+COMPILE+KERNEL...;INSERT+COIN+TO+BYPASS+KERNEL+PANIC...;CAT+%2FDEV%2FURANDOM+%7E+PURRRR...;ARCHITECTING+8-BIT+ARM64+KERNELS!" alt="8-Bit Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=400&size=13&pause=800&color=38BDF8&center=true&vCenter=true&width=750&height=50&lines=PRESS+START+TO+COMPILE+KERNEL...;RETRO+8-BIT+ARM64+ENGINE...;CAT+%2FDEV%2FURANDOM+%7E+PURRRR...;COMPILING+WITH+CLANG...+%5B100%25%5D" alt="8-Bit Typing SVG" />
   </a>
 </p>
 
@@ -37,7 +37,7 @@
 +-----------------------------------------------------------------------------------+
 | 🐱 [STAGE 01] KERNEL DEV      : Custom Linux 4.14 Tree, Kconfig & Defconfig Tuning|
 | 🐾 [STAGE 02] TOOLCHAIN BUFFS : LLVM/Clang Optimization, -O3 Flags, ThinLTO       |
-| 🛡️ [STAGE 03] KERNEL SHIELD   : KernelSU Hooks, SuSFS Anti-Detect, BBG Guard      |
+| 🛡️ [STAGE 03] KERNEL SECURITY : KernelSU Hooks, SuSFS Anti-Detect, BBG Shield      |
 | ⚡ [STAGE 04] AUTOMATION BOT  : Multi-target GitHub Actions CI/CD & Telegram Bot  |
 +-----------------------------------------------------------------------------------+
 ```

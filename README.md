@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">
-  <code>&lt;Akbar Faturochman /&gt;</code> 👾🐾
+  <code>&lt;Akbar Fatur Rochman /&gt;</code> 👾🐾
 </h1>
 
 <p align="center">

@@ -90,12 +90,12 @@
 ### 📊 Arcade Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rwxrx-rx&show_icons=true&theme=catppuccin_mocha&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rwxrx-rx&layout=compact&theme=catppuccin_mocha&hide_border=true&langs_count=6" />
+  <img src="https://streak-stats.demolab.com?user=rwxrx-rx&theme=catppuccin_mocha&hide_border=true&border_radius=8" height="150"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=rwxrx-rx&theme=catppuccin_mocha&hide_border=true&border_radius=8" height="150"/>
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=rwxrx-rx&show_icons=true&bg_color=0d1117&title_color=38bdf8&text_color=ffffff&icon_color=38bdf8&hide_border=true&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=rwxrx-rx&layout=compact&bg_color=0d1117&title_color=38bdf8&text_color=ffffff&icon_color=38bdf8&hide_border=true&langs_count=6" />
 </p>
 
 ---

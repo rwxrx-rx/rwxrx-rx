@@ -1,11 +1,7 @@
-### 👾 8-Bit Pac-Man Contribution Graph
+### 🗺️ 8-Bit Isometric World Map
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/pacman-contribution-graph.svg">
-    <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/pacman-contribution-graph-dark.svg">
-  </picture>
+  <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Map" />
 </p>
 
 <p align="center">

@@ -1,48 +1,50 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=220&section=header&text=%F0%9F%90%BE%20rwxrx-rx%20%F0%9F%90%BE&fontSize=48&fontColor=38bdf8&animation=fadeIn&fontAlignY=38" alt="Header Banner" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:161b22,100:0d1117&height=200&section=header&text=%F0%9F%91%BE%20LEVEL%2099%20KERNEL%20NEKO%20%F0%9F%90%BE&fontSize=42&fontColor=38bdf8&animation=twinkle&fontAlignY=45" alt="8-Bit Header Banner" width="100%">
 </p>
 
 <h1 align="center">
-  <code>&lt;Akbar Faturochman /&gt;</code> 🐾
+  <code>&lt;Akbar Faturochman /&gt;</code> 👾🐾
 </h1>
 
 <p align="center">
-  <b>Linux Kernel & Systems Engineer • Cat Enthusiast 🐱 • ARM64 & LLVM Specialist</b>
+  <b>8-Bit Systems Hacker • Linux Kernel Developer • Cat Enthusiast 🐱 • ARM64 & LLVM Specialist</b>
 </p>
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=800&color=38BDF8&center=true&vCenter=true&width=720&height=45&lines=%24+cat+%2Fproc%2Fversion+%7C+grep+-i+%22meow%22%3B;%24+make+-j%24(nproc)+ARCH%3Darm64+CC%3Dclang+O%3Dout%3B;%24+Kernel+Panic%3F+Feed+the+cat+and+try+again.+%F0%9F%90%B1;%3E+Architecting+Neko-Powered+ARM64+Kernels..." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=400&size=14&pause=800&color=38BDF8&center=true&vCenter=true&width=750&height=50&lines=PRESS+START+TO+COMPILE+KERNEL...;INSERT+COIN+TO+BYPASS+KERNEL+PANIC...;CAT+%2FDEV%2FURANDOM+%7E+PURRRR...;ARCHITECTING+8-BIT+ARM64+KERNELS!" alt="8-Bit Typing SVG" />
   </a>
 </p>
 
 ```sysinfo
-       /\_/\     rwxrx-rx@neko-kernel
-      ( o.o )    --------------------
-       > ^ <     OS      : Custom Linux 4.14.x (Purrfect Edition) 🐾
-                 Arch    : ARM64 (aarch64) / MediaTek MT6833
-                 Target  : Redmi Note 10 5G / POCO M3 Pro 5G (camellia)
-                 Compiler: Proton-Clang / LLVM 17 / GCC 4.9
-                 Modules : KernelSU • SuSFS • Baseband-Guard • WireGuard
-                 Status  : Purring smoothly & Compiling... [100%]
+    /\_/\     [ 8-BIT RETRO KERNEL ENGINE ]
+   ( o.o )    -----------------------------
+    > ^ <     PLAYER   : Akbar Faturochman (@rwxrx-rx)
+              ALT ACC  : @weslahmales 🎮
+              OS       : Custom Linux 4.14.x (Purrfect Arcade Edition)
+              ARCH     : ARM64 (aarch64) / MediaTek MT6833
+              TARGET   : Redmi Note 10 5G / POCO M3 Pro 5G (camellia)
+              TOOLCHAIN: Proton-Clang / LLVM 17 / GCC 4.9
+              BUFFS    : KernelSU • SuSFS • Baseband-Guard • WireGuard
+              HP / MP  : [====================] 100% READY!
 ```
 
 ---
 
-### 🐾 Neko System Matrix & Expertise
+### 👾 8-Bit Quest Matrix & Skills
 
 ```
 +-----------------------------------------------------------------------------------+
-| 🐱 [0x01] KERNEL DEV      : Custom Linux 4.14 tree, Kconfig & Defconfig Tuning    |
-| 🐾 [0x02] TOOLCHAIN ENGINE: LLVM/Clang Optimization, -O3 Flags, ThinLTO           |
-| 🐱 [0x03] SYSTEM SECURITY : KernelSU Hooks, SuSFS Anti-Detection, BBG Shield      |
-| 🐾 [0x04] AUTOMATION BOT  : Multi-target GitHub Actions CI/CD & Telegram Alerts   |
+| 🐱 [STAGE 01] KERNEL DEV      : Custom Linux 4.14 Tree, Kconfig & Defconfig Tuning|
+| 🐾 [STAGE 02] TOOLCHAIN BUFFS : LLVM/Clang Optimization, -O3 Flags, ThinLTO       |
+| 🛡️ [STAGE 03] KERNEL SHIELD   : KernelSU Hooks, SuSFS Anti-Detect, BBG Guard      |
+| ⚡ [STAGE 04] AUTOMATION BOT  : Multi-target GitHub Actions CI/CD & Telegram Bot  |
 +-----------------------------------------------------------------------------------+
 ```
 
 ---
 
-### 🧰 Tech Stack & Cat Arsenal
+### 🧰 Inventory & Player Equipment
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=c,cpp,linux,bash,python,git,github,githubactions,docker,vscode&theme=dark" />
@@ -58,22 +60,24 @@
 
 ---
 
-### 🚀 Featured Repositories
+### 🚀 Active Quests (Repositories)
 
 - 📱 **[kernel_xiaomi_mt6833](https://github.com/rwxrx-rx/kernel_xiaomi_mt6833)** — Custom high-performance Linux 4.14 kernel source tree for MT6833 (`camellia`/`camellian`).
 - ⚡ **Lotus Kernel Engine** — Fully automated GitHub Actions CI/CD pipeline featuring SuSFS patching, header injection, and direct Telegram delivery.
 
 ---
 
-### 🐾 Secondary / Work Account
+### 🎮 Linked Character / Alt Account
 
 <p align="left">
   <a href="https://github.com/weslahmales">
-    <img src="https://img.shields.io/badge/Alt_Account-AKUN__KEDUA-38bdf8?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/Alt_Account-weslahmales-00f3ff?style=for-the-badge&logo=github&logoColor=black" />
   </a>
 </p>
 
-### 📊 GitHub Stats (Catppuccin Theme)
+---
+
+### 📊 Arcade High Scores & Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=rwxrx-rx&show_icons=true&theme=catppuccin_mocha&hide_border=true&include_all_commits=true&count_private=true" />
@@ -86,7 +90,7 @@
 
 ---
 
-### 📈 Activity Heatmap
+### 📈 Quest Heatmap
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=rwxrx-rx&bg_color=1e1e2e&color=89b4fa&line=89b4fa&point=f5e0dc&area=true&hide_border=true&radius=12" alt="Activity Graph"/>
@@ -94,7 +98,7 @@
 
 ---
 
-### 🤝 Connection Interface
+### 🤝 Multi-Player Connection
 
 <p align="center">
   <a href="https://github.com/rwxrx-rx">
@@ -107,5 +111,5 @@
 </p>
 
 <p align="center">
-  <code>[ EOF - System Status: PURRFECT 🐾 ]</code>
+  <code>[ GAME OVER? NO, SYSTEM STATUS: PURRFECT 👾🐾 ]</code>
 </p>

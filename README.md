@@ -77,6 +77,18 @@
 
 ---
 
+### 🕹️ 8-Bit Contribution Game
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
+
+---
+
 ### 📊 Arcade High Scores & Stats
 
 <p align="center">
@@ -86,14 +98,6 @@
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=rwxrx-rx&theme=catppuccin_mocha&hide_border=true&border_radius=8" height="150"/>
-</p>
-
----
-
-### 📈 Quest Heatmap
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rwxrx-rx&bg_color=1e1e2e&color=89b4fa&line=89b4fa&point=f5e0dc&area=true&hide_border=true&radius=12" alt="Activity Graph"/>
 </p>
 
 ---

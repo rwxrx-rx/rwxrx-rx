@@ -33,10 +33,6 @@
               HP / MP  : [====================] 100% READY!
 ```
 
----
-
-### 👾 8-Bit Quest Matrix & Skills
-
 ```
 +-----------------------------------------------------------------------------------+
 | 🐱 [STAGE 01] KERNEL DEV      : Custom Linux 4.14 Tree, Kconfig & Defconfig Tuning|
@@ -47,8 +43,6 @@
 ```
 
 ---
-
-### 🧰 Inventory & Player Equipment
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=c,cpp,linux,bash,python,git,github,githubactions,docker,vscode&theme=dark" />
@@ -64,14 +58,14 @@
 
 ---
 
-### 🚀 Active Quests (Repositories)
+### 🚀 Active Repositories
 
 - 📱 **[kernel_xiaomi_mt6833](https://github.com/rwxrx-rx/kernel_xiaomi_mt6833)** — Custom high-performance Linux 4.14 kernel source tree for MT6833 (`camellia`/`camellian`).
 - ⚡ **Lotus Kernel Engine** — Fully automated GitHub Actions CI/CD pipeline featuring SuSFS patching, header injection, and direct Telegram delivery.
 
 ---
 
-### 🎮 Linked Character / Alt Account
+### 😹 First Account ( Inactive )
 
 <p align="left">
   <a href="https://github.com/weslahmales">
@@ -91,7 +85,7 @@
 
 ---
 
-### 📊 Arcade High Scores & Stats
+### 📊 Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=rwxrx-rx&show_icons=true&theme=catppuccin_mocha&hide_border=true&include_all_commits=true&count_private=true" />
@@ -104,7 +98,7 @@
 
 ---
 
-### 🤝 Multi-Player Connection
+### 🤝 Connection
 
 <p align="center">
   <a href="https://github.com/rwxrx-rx">

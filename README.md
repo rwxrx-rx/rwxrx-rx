@@ -23,8 +23,8 @@
 ```sysinfo
     /\_/\     [ 8-BIT RETRO KERNEL ENGINE ]
    ( o.o )    -----------------------------
-    > ^ <     PLAYER   : Akbar Faturochman (@rwxrx-rx)
-              ALT ACC  : @weslahmales 🎮
+    > ^ <     PLAYER   : Akbar Fatur Rochman (@rwxrx-rx)
+              ALT ACC  : @weslahmales 🪐
               OS       : Custom Linux 4.14.x (Purrfect Arcade Edition)
               ARCH     : ARM64 (aarch64) / MediaTek MT6833
               TARGET   : Redmi Note 10 5G / POCO M3 Pro 5G (camellia)
@@ -32,6 +32,10 @@
               BUFFS    : KernelSU • SuSFS • Baseband-Guard • WireGuard
               HP / MP  : [====================] 100% READY!
 ```
+
+---
+
+### 👾 8-Bit Quest Matrix & Skills
 
 ```
 +-----------------------------------------------------------------------------------+
@@ -43,6 +47,8 @@
 ```
 
 ---
+
+### 🧰 Inventory & Player Equipment
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=c,cpp,linux,bash,python,git,github,githubactions,docker,vscode&theme=dark" />
@@ -65,27 +71,23 @@
 
 ---
 
-### 😹 First Account ( Inactive )
+### 🌌 Connected Sub-Node & First Account
 
 <p align="left">
   <a href="https://github.com/weslahmales">
-    <img src="https://img.shields.io/badge/Alt_Account-weslahmales-00f3ff?style=for-the-badge&logo=github&logoColor=black" />
+    <img src="https://img.shields.io/badge/First_Account-weslahmales-bd93f9?style=for-the-badge&logo=github&logoColor=black" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/weslahmales">
+    <img src="https://img.shields.io/badge/Sector-Deep_Space_Lab-00f0ff?style=for-the-badge&logo=planetScale&logoColor=black" />
   </a>
 </p>
 
----
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
+> 🪐 **[@weslahmales](https://github.com/weslahmales)** berfungsikan sebagai akun lama sekaligus laboratorium eksperimental sekunder (Deep Space Exoplanet Lab) untuk proyek sandbox dan pengujian sistem.
 
 ---
 
-### 📊 Stats
+### 📊 Arcade Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=rwxrx-rx&show_icons=true&theme=catppuccin_mocha&hide_border=true&include_all_commits=true&count_private=true" />
@@ -107,6 +109,10 @@
   &nbsp;&nbsp;
   <a href="mailto:akbarfatur.dev@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/weslahmales">
+    <img src="https://img.shields.io/badge/Alt_Space-weslahmales-bd93f9?style=for-the-badge&logo=github&logoColor=black" />
   </a>
 </p>
 

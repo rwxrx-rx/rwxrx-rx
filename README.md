@@ -1,11 +1,9 @@
-### 🗺️ 8-Bit Isometric World Map
-
 <p align="center">
-  <img src="profile-3d-contrib/profile-night-view.svg" alt="3D Contribution Map" />
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJ1NWpya3psZm03cXh5Nmtxb3h0ODJtOGd6b3BvYTFjdnZtdGN4cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/K1tgb1IUeBOQw/giphy.gif" alt="8-Bit Cat Header" width="100%" height="200" style="object-fit: cover; border-radius: 10px;" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 
 <h1 align="center">
@@ -82,8 +80,6 @@
 </p>
 
 ---
-
-### 🕹️ 8-Bit Contribution Game
 
 <p align="center">
   <picture>

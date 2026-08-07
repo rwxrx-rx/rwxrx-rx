@@ -2,7 +2,7 @@
 
 <h1><code>&lt; AKBAR FATUR ROCHMAN <span style="color: #38bdf8;">// @rwxrx-rx</span> &gt;</code></h1>
 
-### **Linux Kernel & Security Infrastructure Architect**
+### **Converting caffeine & sleep deprivation into compiled zImage-dtb**
 *Specializing in ARM64 Linux Kernel 4.14, Low-Level Root Hooks, and Headless Cloud CI/CD Automation.*
 
 <br>

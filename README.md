@@ -37,42 +37,6 @@
 [   0.000004] Executing build.sh... 666 compiler warnings ignored.
 [   0.000005] KERNEL PANIC: Bootloop detected on target 'camellia'.
 [   0.000006] System halted. Re-flashing stock boot.img at 3:00 AM... 💀
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Kernel-Linux_4.14.x-7aa2f7?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Platform-MediaTek_MT6833-ff9e64?style=for-the-badge&logo=android&logoColor=black" />
-  <img src="https://img.shields.io/badge/Toolchain-LLVM%2FClang_17+-7dcfff?style=for-the-badge&logo=llvm&logoColor=black" />
-  <img src="https://img.shields.io/badge/CI%2FCD-Vercel_%2B_GitHub_Actions-9ece6a?style=for-the-badge&logo=githubactions&logoColor=black" />
-</p>
-
-</div>
-
----
-
-### 🖥️ `cat /proc/developer_info`
-
-| Parameter | Value / Live Status |
-| :--- | :--- |
-| **Main Architecture** | ARM64 (aarch64) — Linux 4.14 Custom Kernel Tree |
-| **Target Device** | MediaTek MT6833 (`camellia` / `camellian`) |
-| **Security Hooks** | KernelSU (Official / Next / SUKISU / ReSUKISU) + SuSFS 4.14 + BBG |
-| **Debugging Method** | `adb pull /sys/fs/pstore/` & screaming at `ramoops` |
-| **Compiler Strategy** | `-Wno-everything` *(If the compiler doesn't report errors, it's a feature)* |
-| **Mental Health** | `0x00000000` (NULL Pointer Dereference / Core Dumped) |
-
----
-
-### 💀 SYSTEM DIAGNOSTICS & CRASH LOGS
-
-```text
-[   0.000000] Linux version 4.14.x-KonToLKzuu (rwxrx-rx@github-actions)
-[   0.000001] Initializing caffeine levels......................... [ OK ]
-[   0.000002] Mounting /dev/brain.................................. [ FAILED: Corrupted File System ]
-[   0.000003] Injecting SuSFS 4.14 & KernelSU hooks............... [ HIDDEN FROM SAFETYSENSE ]
-[   0.000004] Executing build.sh... 666 compiler warnings ignored.
-[   0.000005] KERNEL PANIC: Bootloop detected on target 'camellia'.
-[   0.000006] System halted. Re-flashing stock boot.img at 3:00 AM... 💀
 ```
 
 ---

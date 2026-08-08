@@ -2,8 +2,8 @@
 
 <h1><code>&lt; AKBAR FATUR ROCHMAN <span style="color: #38bdf8;">// @rwxrx-rx</span> &gt;</code></h1>
 
-### **Converting caffeine & sleep deprivation into compiled zImage-dtb**
-*Specializing in ARM64 Linux Kernel 4.14, Low-Level Root Hooks, and Headless Cloud CI/CD Automation.*
+### **Converting caffeine, nicotine & sleep deprivation into compiled zImage-dtb**
+*Specializing in ARM64 Linux Kernel 4.14, Low-Level Root Hooks, and Headless Cloud CI/CD Automation (and spontaneous hard bricks).*
 
 <br>
 
@@ -18,31 +18,46 @@
 
 ---
 
-### 📋 Overview & Core Competencies
+### 📋 Overview & System Diagnostics
 
-Engineering custom kernel space solutions, low-level anti-detection hooks, and automated CI/CD build environments. Focused on delivering high-performance, low-latency kernel builds while maintaining full security framework stealth.
+Engineering custom kernel space solutions, low-level anti-detection hooks, and automated CI/CD build environments. Focused on delivering high-performance, low-latency kernel builds while maintaining full stealth against banking apps.
 
 ```sysinfo
-┌─ [ SYSTEM DIAGNOSTICS & STATUS REPORT ] ────────────────────────────────────┐
+┌─ [ SYSTEM DIAGNOSTICS & KERNEL DUMP ] ──────────────────────────────────────┐
 │ • Main Target Device  : MediaTek MT6833 (POCO M3 Pro 5G / Redmi Note 10 5G) │
-│ • Core Kernel Focus   : Linux 4.14.x Non-GKI Tree Optimization & Driver Port  │
+│ • Core Kernel Focus   : Linux 4.14.x Non-GKI Tree Optimization & Driver Port │
 │ • Root Infrastructure : KernelSU (Official, Next, xxKSU, SUKISU, ReSUKISU)  │
 │ • Defense Mechanics   : SuSFS 4.14 Anti-Detection Hooks & Baseband-Guard     │
-│ • Debug Methodology   : `adb pull /sys/fs/pstore/` & silent existential dread│
-│ • Compiler Policy     : If it compiles with 666 warnings, it goes to production│
+│ • Debug Methodology   : `adb pull /sys/fs/pstore/` & screaming at `ramoops`  │
+│ • Compiler Policy     : If it compiles with 666 warnings, it goes to prod 🚀 │
+│ • Sleep Schedule      : `0x00000000` (NULL Pointer Dereference / Core Dumped)│
+│ • Recovery Plan       : Reflashing stock boot.img at 3:00 AM in total panic │
 └─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 💀 RECENT KERNEL PANIC LOG
+
+```text
+[   0.000001] Initializing developer consciousness............. [ OK ]
+[   0.000002] Mounting /dev/brain.............................. [ FAILED: Corrupted File System ]
+[   0.000003] Injecting SuSFS 4.14 & KernelSU hooks............ [ SUCCESS: Invisible to SafetyNet ]
+[   0.000004] Executing build.sh... 666 compiler warnings ignored (-Wno-everything).
+[   0.000005] KERNEL PANIC: Bootloop detected on target 'camellia'.
+[   0.000006] System halted. Praying to the ramoops logs... 💀
 ```
 
 ---
 
 ### 🛠️ Technical Matrix
 
-| Domain | Technology Stack & Tools |
-| :--- | :--- |
-| **Languages** | `C (Kernel Space)` • `C++17/20` • `Rust (lpud)` • `Bash` • `Python 3` |
-| **Kernel & Security** | `Linux 4.14.x` • `KernelSU Multi-Fork` • `SuSFS 4.14 Hooks` • `BBG` |
-| **Toolchains & LTO** | `Proton-Clang 17+` • `AOSP LLVM` • `GCC 13+` • `ThinLTO` |
-| **Cloud Automation** | `GitHub Actions` • `Vercel Serverless Functions` • `Telegram Webhooks` |
+| Domain | Technology Stack & Tools | Diagnostics / Notes |
+| :--- | :--- | :--- |
+| **Languages** | `C (Kernel Space)` • `C++17/20` • `Rust (lpud)` • `Bash` • `Python 3` | *Writing C code at 3 AM with zero memory safety* |
+| **Kernel & Security** | `Linux 4.14.x` • `KernelSU Multi-Fork` • `SuSFS 4.14` • `BBG` | *Hiding root access from banking apps & my sanity* |
+| **Toolchains & LTO** | `Proton-Clang 17+` • `AOSP LLVM` • `GCC 13+` • `ThinLTO` | *If Clang doesn't throw a fatal error, ship it* |
+| **Cloud Automation** | `GitHub Actions` • `Vercel Serverless` • `Telegram Webhooks` | *Frying Microsoft & Vercel cloud CPUs for free* |
 
 ---
 
@@ -51,12 +66,12 @@ Engineering custom kernel space solutions, low-level anti-detection hooks, and a
 #### ⚡ [kernel_xiaomi_mt6833](https://github.com/rwxrx-rx/kernel_xiaomi_mt6833)
 > Custom Linux 4.14 kernel source tree for MT6833 (`camellia` / `camellian`).
 > * **Highlights:** Integrated with ThinLTO, scheduler tuning, and latency optimizations.
-> * **Note:** Engineered to run fast enough to outrun spontaneous bootloops.
+> * **Note:** Tuned to run fast enough to outrun spontaneous kernel panics. If it bootloops, it's an undocumented security feature.
 
 #### 🛡️ [KonToLKzuu](https://github.com/rwxrx-rx/KonToLKzuu)
 > Automated, headless CI/CD orchestration pipeline for non-GKI Android kernels.
 > * **Highlights:** Multi-fork KernelSU injection, SuSFS 4.14 patching, Rust `lpud` compilation, and Vercel API integration.
-> * **Note:** Frying cloud servers 24/7 so local PC hardware doesn't catch fire.
+> * **Note:** Frying cloud servers 24/7 so my local PC hardware doesn't melt into a puddle of molten silicon.
 
 ---
 
@@ -90,5 +105,5 @@ Engineering custom kernel space solutions, low-level anti-detection hooks, and a
 </p>
 
 <p align="center">
-  <code>while (system.isAlive()) { compile_kernel(); pray_for_no_bootloop(); } 💀🖤</code>
+  <code>while (alive) { compile_kernel(); if (bootloop) { adb_pull_pstore(); pray(); } } 💀🖤</code>
 </p>

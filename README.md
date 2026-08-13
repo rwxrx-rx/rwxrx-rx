@@ -1,109 +1,75 @@
 <div align="center">
 
-<h1><code>&lt; AKBAR FATUR ROCHMAN <span style="color: #38bdf8;">// @rwxrx-rx</span> &gt;</code></h1>
+# Akbar Fatur Rochman
 
-### **Converting caffeine, nicotine & sleep deprivation into compiled zImage-dtb**
-*Specializing in ARM64 Linux Kernel 4.14, Low-Level Root Hooks, and Headless Cloud CI/CD Automation (and spontaneous hard bricks).*
+### Low-level developer — Linux kernel & Android internals
 
-<br>
+Building, breaking, and rebuilding kernels for the MediaTek MT6833 platform.
+Currently automating what used to take a local machine into fully headless CI/CD.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Architecture-ARM64%20%2F%20Linux%204.14-38bdf8?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Platform-MediaTek%20MT6833-f59e0b?style=for-the-badge&logo=android&logoColor=black" />
-  <img src="https://img.shields.io/badge/Toolchain-LLVM%2FClang%2017%2B-22c55e?style=for-the-badge&logo=llvm&logoColor=white" />
-  <img src="https://img.shields.io/badge/Infrastructure-Vercel%20%2B%20GitHub%20Actions-a855f7?style=for-the-badge&logo=githubactions&logoColor=white" />
-</p>
+[![X](https://img.shields.io/badge/X-dmesg__panic-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/dmesg_panic)
+[![Instagram](https://img.shields.io/badge/Instagram-_rwxrxrx-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/_rwxrxrx)
+[![Email](https://img.shields.io/badge/Email-akbarfatur.dev%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:akbarfatur.dev@gmail.com)
 
 </div>
 
 ---
 
-### 📋 Overview & System Diagnostics
+## About
 
-Engineering custom kernel space solutions, low-level anti-detection hooks, and automated CI/CD build environments. Focused on delivering high-performance, low-latency kernel builds while maintaining full stealth against banking apps.
+I work on the parts of Android that most people never see — kernel trees, root frameworks, and the build systems behind them. Most of my time goes into a custom Linux 4.14 (non-GKI) kernel for the MediaTek MT6833 (Poco M3 Pro 5G / Redmi Note 10 5G, codename `camellia`), along with the CI/CD pipeline that builds it.
 
-```sysinfo
-┌─ [ SYSTEM DIAGNOSTICS & KERNEL DUMP ] ──────────────────────────────────────┐
-│ • Main Target Device  : MediaTek MT6833 (POCO M3 Pro 5G / Redmi Note 10 5G) │
-│ • Core Kernel Focus   : Linux 4.14.x Non-GKI Tree Optimization & Driver Port │
-│ • Root Infrastructure : KernelSU (Official, Next, xxKSU, SUKISU, ReSUKISU)  │
-│ • Defense Mechanics   : SuSFS 4.14 Anti-Detection Hooks & Baseband-Guard     │
-│ • Debug Methodology   : `adb pull /sys/fs/pstore/` & screaming at `ramoops`  │
-│ • Compiler Policy     : If it compiles with 666 warnings, it goes to prod 🚀 │
-│ • Sleep Schedule      : `0x00000000` (NULL Pointer Dereference / Core Dumped)│
-│ • Recovery Plan       : Reflashing stock boot.img at 3:00 AM in total panic │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+- 🔧 Maintaining a non-GKI kernel tree with scheduler tuning and LTO optimization
+- 🛡️ Integrating KernelSU and its forks (Next, SukiSU Ultra, xxKSU, ReSukiSU) with SuSFS
+- ☁️ Moving kernel + manager APK builds fully onto GitHub Actions — no local hardware required
+- 📦 Occasional recovery builder work (TWRP / OrangeFox) between kernel builds
 
----
+## Currently building
 
-### 💀 RECENT KERNEL PANIC LOG
+**[KonToLKzuu](https://github.com/rwxrx-rx/KonToLKzuu)**
+A GitHub Actions pipeline that compiles and patches non-GKI kernels for `camellia` — toolchain setup, KernelSU/SuSFS patching, and manager APK builds, all headless.
 
-```text
-[   0.000001] Initializing developer consciousness............. [ OK ]
-[   0.000002] Mounting /dev/brain.............................. [ FAILED: Corrupted File System ]
-[   0.000003] Injecting SuSFS 4.14 & KernelSU hooks............ [ SUCCESS: Invisible to SafetyNet ]
-[   0.000004] Executing build.sh... 666 compiler warnings ignored (-Wno-everything).
-[   0.000005] KERNEL PANIC: Bootloop detected on target 'camellia'.
-[   0.000006] System halted. Praying to the ramoops logs... 💀
-```
+**[kernel_xiaomi_mt6833](https://github.com/rwxrx-rx/kernel_xiaomi_mt6833)**
+The kernel source tree itself: scheduler tuning and ThinLTO on top of the stock Linux 4.14 base.
 
----
+## Tech stack
 
-### 🛠️ Technical Matrix
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-| Domain | Technology Stack & Tools | Diagnostics / Notes |
-| :--- | :--- | :--- |
-| **Languages** | `C (Kernel Space)` • `C++17/20` • `Rust (lpud)` • `Bash` • `Python 3` | *Writing C code at 3 AM with zero memory safety* |
-| **Kernel & Security** | `Linux 4.14.x` • `KernelSU Multi-Fork` • `SuSFS 4.14` • `BBG` | *Hiding root access from banking apps & my sanity* |
-| **Toolchains & LTO** | `Proton-Clang 17+` • `AOSP LLVM` • `GCC 13+` • `ThinLTO` | *If Clang doesn't throw a fatal error, ship it* |
-| **Cloud Automation** | `GitHub Actions` • `Vercel Serverless` • `Telegram Webhooks` | *Frying Microsoft & Vercel cloud CPUs for free* |
+![Linux](https://img.shields.io/badge/Linux%20Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM%2FClang-262D3A?style=for-the-badge&logo=llvm&logoColor=white)
 
----
+## GitHub stats
 
-### 📦 Key Repositories & Deployments
+<div align="center">
 
-#### ⚡ [kernel_xiaomi_mt6833](https://github.com/rwxrx-rx/kernel_xiaomi_mt6833)
-> Custom Linux 4.14 kernel source tree for MT6833 (`camellia` / `camellian`).
-> * **Highlights:** Integrated with ThinLTO, scheduler tuning, and latency optimizations.
-> * **Note:** Tuned to run fast enough to outrun spontaneous kernel panics. If it bootloops, it's an undocumented security feature.
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=rwxrx-rx&show_icons=true&hide_border=true&theme=tokyonight" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rwxrx-rx&layout=compact&hide_border=true&theme=tokyonight" />
 
-#### 🛡️ [KonToLKzuu](https://github.com/rwxrx-rx/KonToLKzuu)
-> Automated, headless CI/CD orchestration pipeline for non-GKI Android kernels.
-> * **Highlights:** Multi-fork KernelSU injection, SuSFS 4.14 patching, Rust `lpud` compilation, and Vercel API integration.
-> * **Note:** Frying cloud servers 24/7 so my local PC hardware doesn't melt into a puddle of molten silicon.
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=rwxrx-rx&hide_border=true&theme=tokyonight" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rwxrx-rx&theme=tokyo-night&hide_border=true" width="95%" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=rwxrx-rx&theme=tokyonight&no-frame=true&row=1&column=6" />
+
+</div>
+
+### Contribution snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/rwxrx-rx/rwxrx-rx/output/github-contribution-grid-snake.svg" width="95%" />
+
+</div>
 
 ---
 
-### 📊 System Telemetry
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=rwxrx-rx&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=rwxrx-rx&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=rwxrx-rx&theme=tokyonight&hide_border=true&border_radius=8" height="150"/>
-</p>
-
----
-
-### 📡 Network Endpoints
-
-<p align="center">
-  <a href="https://github.com/rwxrx-rx">
-    <img src="https://img.shields.io/badge/Primary_Node-@rwxrx--rx-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/weslahmales">
-    <img src="https://img.shields.io/badge/Alt_Archive-@weslahmales-bd93f9?style=for-the-badge&logo=github&logoColor=black" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:akbarfatur.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Direct_Email-akbarfatur.dev@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  <code>while (alive) { compile_kernel(); if (bootloop) { adb_pull_pstore(); pray(); } } 💀🖤</code>
-</p>
+<div align="center">
+<sub>Building for <code>camellia</code>, one CI run at a time.</sub>
+</div>
